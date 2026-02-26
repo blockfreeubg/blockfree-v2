@@ -19,6 +19,11 @@ nav {
     padding: 0 1%;
     z-index: 5;
     margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    background: #1a1a1a;
+    border-bottom: 1px solid #222;
 }
 
 nav img {
@@ -35,6 +40,7 @@ nav h1 {
     font-size: 4vw;
     font-weight: 800;
     margin-right: 1%;
+    margin-left: 10px;
 }
 
 .content {
@@ -183,3 +189,18 @@ nav h1 {
     font-size: 5vw;
     text-shadow: 0 0 100px #2c7ffc;
     }
+
+    .settings-btn {
+    margin-left: auto; /* pushes it to the right */
+    background: #2a2a2a;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.settings-btn:hover {
+    background: #3a3a3a;
+}
