@@ -21,9 +21,9 @@ nav {
     margin: auto;
     display: flex;
     align-items: center;
-    padding: 15px 25px;
-    background: #1a1a1a;
-    border-bottom: 1px solid #222;
+    justify-content: space-between; /* spreads left and right */
+    padding: 20px 40px;
+    background: #111;
 }
 
 nav img {
@@ -190,17 +190,22 @@ nav h1 {
     text-shadow: 0 0 100px #2c7ffc;
     }
 
-    .settings-btn {
-    margin-left: auto; /* pushes it to the right */
-    background: #2a2a2a;
+.settings-btn {
+    background: #2b2b2b;
     color: white;
     border: none;
-    padding: 8px 14px;
-    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.settings-btn i {
+    margin-right: 8px;
 }
 
 .settings-btn:hover {
     background: #3a3a3a;
+    transform: scale(1.05);
 }
